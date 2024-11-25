@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    padding: 5%;
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1em;
+}
+#snowman1-head {
+    animation: snowman1-head 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes snowman1-head {
+    form {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(10deg);
+    }
+}
+
+#snowman2-head {
+    animation: snowman2-head 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes snowman2-head {
+    form {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(10deg);
+    }
+}
+
+#snowman1-left-arm {
+    animation: snowman1-left-arm 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes snowman1-left-arm {
+    form {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(-20deg);
+    }
+}
+
+#snowman1-right-arm {
+    animation: snowman1-right-arm 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes snowman1-right-arm {
+    form {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(20deg);
+    }
+}
+
+/* */
+#snowman2-left-arm {
+    animation: snowman2-left-arm 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes snowman2-left-arm {
+    form {
+        transform: translateY(0px) rotateZ(0deg);
+
+    }
+
+    to {
+        transform: translateY(-25px) rotateZ(50deg);
+    }
+}
+
+#snowman2-right-arm {
+    animation: snowman2-right-arm 1s ease-in-out infinite alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+
+@keyframes snowman2-right-arm {
+    form {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(-40deg);
+    }
+}
+
+#Star {
+    animation: rotateStar 4s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes rotateStar {
+    0% {
+        fill: #FFD000;
+        transform: translateY(0px) scale(1) rotate(0deg);
+
+    }
+    50% {
+
+        fill: #FFF700;
+        transform: translateY(20px) scale(1.5) rotate(180deg);
+
+    }
+    100% {
+        fill: #FFD000;
+        transform: translateY(0px) scale(1) rotate(360deg);
+
+    }
+}
+
+#ornament1 {
+    animation: ornament1 2s infinite alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+
+@keyframes ornament1 {
+    from {
+        transform: rotateZ(30deg);
+    }
+    to {
+        transform: rotateZ(-30deg);
+    }
+}
+
+#ornament2 {
+    animation: ornament2 2s infinite alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+
+@keyframes ornament2 {
+    from {
+        transform: rotateZ(40deg);
+    }
+    to {
+        transform: rotateZ(-40deg);
+    }
+}
+
+#ornament3 {
+    animation: ornament3 2.2s infinite alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+
+@keyframes ornament3 {
+    from {
+        transform: rotateZ(30deg);
+    }
+    to {
+        transform: rotateZ(-30deg);
+    }
+}
+
+#ornament4 {
+    animation: ornament4 2.2s infinite alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+
+@keyframes ornament4 {
+    from {
+        transform: rotateZ(30deg);
+    }
+    to {
+        transform: rotateZ(-30deg);
+    }
+}
+
+#ornament5 {
+    animation: ornament5 2.5s infinite alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+
+@keyframes ornament5 {
+    from {
+        transform: rotateZ(25deg);
+    }
+    to {
+        transform: rotateZ(-25deg);
+    }
+}
+
+#ornament6 {
+    animation: ornament6 2.5s infinite alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+
+@keyframes ornament6 {
+    from {
+        transform: rotateZ(25deg);
+    }
+    to {
+        transform: rotateZ(-25deg);
+    }
+}
+
+#ornament7 {
+    animation: ornament7 3s infinite alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+
+@keyframes ornament7 {
+    from {
+        transform: rotateZ(20deg);
+    }
+    to {
+        transform: rotateZ(-20deg);
+    }
+}
+
+#ornament8 {
+    animation: ornament8 3s infinite alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+
+@keyframes ornament8 {
+    from {
+        transform: rotateZ(20deg);
+    }
+    to {
+        transform: rotateZ(-20deg);
+    }
+}
