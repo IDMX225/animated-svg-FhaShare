@@ -8,10 +8,29 @@ body {
     text-align: center;
     padding: 5%;
 }
+
 h1 {
     font-size: 3rem;
     margin-bottom: 1em;
+    background-image: linear-gradient(90deg, red, green);
+    background-size: 200% 200%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    animation: gradientAnimation 4s ease infinite;
 }
+
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
 #snowman1-head {
     animation: snowman1-head 1s ease-in-out infinite alternate;
     transform-origin: bottom;
@@ -122,12 +141,14 @@ h1 {
         transform: translateY(0px) scale(1) rotate(0deg);
 
     }
+
     50% {
 
         fill: #FFF700;
         transform: translateY(20px) scale(1.5) rotate(180deg);
 
     }
+
     100% {
         fill: #FFD000;
         transform: translateY(0px) scale(1) rotate(360deg);
@@ -145,6 +166,7 @@ h1 {
     from {
         transform: rotateZ(30deg);
     }
+
     to {
         transform: rotateZ(-30deg);
     }
@@ -160,6 +182,7 @@ h1 {
     from {
         transform: rotateZ(40deg);
     }
+
     to {
         transform: rotateZ(-40deg);
     }
@@ -175,6 +198,7 @@ h1 {
     from {
         transform: rotateZ(30deg);
     }
+
     to {
         transform: rotateZ(-30deg);
     }
@@ -190,6 +214,7 @@ h1 {
     from {
         transform: rotateZ(30deg);
     }
+
     to {
         transform: rotateZ(-30deg);
     }
@@ -205,6 +230,7 @@ h1 {
     from {
         transform: rotateZ(25deg);
     }
+
     to {
         transform: rotateZ(-25deg);
     }
@@ -220,6 +246,7 @@ h1 {
     from {
         transform: rotateZ(25deg);
     }
+
     to {
         transform: rotateZ(-25deg);
     }
@@ -235,6 +262,7 @@ h1 {
     from {
         transform: rotateZ(20deg);
     }
+
     to {
         transform: rotateZ(-20deg);
     }
@@ -250,6 +278,7 @@ h1 {
     from {
         transform: rotateZ(20deg);
     }
+
     to {
         transform: rotateZ(-20deg);
     }
